@@ -22,10 +22,7 @@ st.set_page_config(
 st.title("❤️ Heart Disease Prediction System")
 st.caption("Machine learning demonstration using the UCI Heart Disease dataset.")
 
-st.warning(
-    "Educational use only. This application is not a medical diagnostic tool "
-    "and must not be used to make medical or treatment decisions."
-)
+
 
 # --------------------------------------------------
 # DATABASE INITIALIZATION
