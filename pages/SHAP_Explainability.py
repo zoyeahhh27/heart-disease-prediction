@@ -47,10 +47,6 @@ st.title("🔎 SHAP Explainability Dashboard")
 st.caption(
     "Explore which input features influence the predictions of your trained models."
 )
-st.info(
-    "Educational machine-learning explanation only. SHAP describes model behavior; "
-    "it is not a medical explanation, diagnosis, or estimate of clinical risk."
-)
 
 # --------------------------------------------------
 # CHECK PROJECT FILES
