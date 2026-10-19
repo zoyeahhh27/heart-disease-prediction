@@ -33,10 +33,13 @@ st.warning(
 try:
     init_db()
     database_ready = True
-except Exception as exc:
+except Exception:
     database_ready = False
-    st.error(f"Database connection failed: {exc}")
-
+    st.warning(
+        "The database is currently unavailable. "
+        "You can still use the prediction feature, "
+        "but prediction history will not be saved."
+    )
 # --------------------------------------------------
 # LOAD TRAINED MODEL
 # --------------------------------------------------
